@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  calcjuroscompostos:
+    image: ${DOCKER_REGISTRY-}calcjuroscompostos
+    build:
+      context: .\CalcJurosCompostos
+      dockerfile: Dockerfile
